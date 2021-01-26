@@ -1,0 +1,23 @@
+:root {
+  --mainGreen: #03a503;
+  --lightBlue: #49ff01;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+body {
+  font-family: "Permanent Marker", cursive !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important ;
+}
+.text-title {
+  font-family: "Yusei Magic", sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-Green {
+  color: var(--mainGreen);
+}
+.text-bright {
+  color: var(--lightBlue);
+}
